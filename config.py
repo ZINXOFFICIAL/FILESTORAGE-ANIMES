@@ -19,10 +19,10 @@ APP_ID = int(os.environ.get("APP_ID", "27570599"))
 API_HASH = os.environ.get("API_HASH", "0329a786739cb73a2b1176582c5e8376")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002042807021"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "--1002111466285"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "5468078784"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "6714425316"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
@@ -33,7 +33,7 @@ DB_NAME = os.environ.get("DATABASE_NAME", "blade")
 
 #force sub channel id, use "," between each id and add "-100" as prefix
 try:
-    FORCE_SUB_CHANNELS=[-1002080278271, -1002127474493, -1001946737836]
+    FORCE_SUB_CHANNELS=[-1002136508298, -1002077364596, -1002062494458]
     for x in (os.environ.get("FORCE_SUB_CHANNELS", "").split()):
         FORCE_SUB_CHANNELS.append(int(x))
 except ValueError:
